@@ -28,7 +28,7 @@
                     <h3 class="text-2xl font-bold mb-5">Income</h3>
                     <div class="flex items-center">
                         <p class="font-bold m-5">Income:</p>
-                        <input type="text" name="" id="" class="p-2 bg-slate-500 text-white rounded"
+                        <input type="text" name="" id="income" class="p-2 bg-slate-500 text-white rounded"
                             placeholder="Input Ammount">
                     </div>
                 </div>
@@ -37,39 +37,41 @@
                     <h3 class="text-2xl font-bold mb-5">Expenses</h3>
                     <div class="flex items-center ">
                         <p class="font-bold m-5" >Food:</p>
-                        <input type="text" name="" id="" class="p-2 bg-slate-500 text-white rounded " placeholder="Input Ammount" >
+                        <input type="text" name="" id="food" class="p-2 bg-slate-500 text-white rounded " placeholder="Input Ammount" >
                     </div>
                     <div class="flex items-center ">
                         <p class="font-bold m-5" >Rent:</p>
-                        <input type="text" name="" id="" class="p-2 bg-slate-500 text-white rounded" placeholder="Input Ammount" >
+                        <input type="text" name="" id="rent" class="p-2 bg-slate-500 text-white rounded" placeholder="Input Ammount" >
                     </div>
                     <div class="flex items-center ">
                         <p class="font-bold m-5" >Clothes:</p>
-                        <input type="text" name="" id="" class="p-2 bg-slate-500 text-white rounded" placeholder="Input Ammount" >
+                        <input type="text" name="" id="clothes" class="p-2 bg-slate-500 text-white rounded" placeholder="Input Ammount" >
                     </div>
 
                 </div>
-                <button class="text-2xl font-bold p-2 rounded bg-blue-500 w-1/3">Calculate</button>
-                <h2 class="text-2xl font-bold m-5">Total Expenses: 5500
+                <button id="calculate-btn" class="text-2xl font-bold p-2 rounded bg-blue-500 w-1/3">Calculate</button>
+                <h2 class="text-2xl font-bold m-5" >Total Expenses: $<span id="total-expenses"> </span>
                 </h2>
-                <h2 class="text-2xl font-bold m-5" >Balance: 4500
+                <h2 class="text-2xl font-bold m-5" >Balance: $<span id="total-balance"> </span>
                 </h2>
 
 
                 <div class="flex items-center ">
                     <p class="font-bold m-5" >Save:</p>
-                <input type="text" name="" id="" class="p-2 bg-slate-500 text-white rounded w-20"  >
+                <input type="text" name="" id="savings" class="p-2 bg-slate-500 text-white rounded w-20"  >
                 <p class="font-bold m-5">%</p>
-                <button class="text-2xl font-bold p-2 rounded bg-blue-500 m-5 w-20 ">Save</button>
+                <button id="total-save" class="text-2xl font-bold p-2 rounded bg-blue-500 m-5 w-20 ">Save</button>
                 </div>
-                <h2 class="text-2xl font-bold m-5" >Saving Amount: 2000
+                <h2 class="text-2xl font-bold m-5" >Saving Amount: $<span id="saving-amount"> </span>
                 </h2>
-                <h2 class="text-2xl font-bold m-5" >Remaining Balance: 2500
+                <h2 class="text-2xl font-bold m-5" >Remaining Balance: $<span id="remaining-balance"> </span>
                 </h2>
 
             </div>
         </div>
     </main>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
