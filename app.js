@@ -14,8 +14,9 @@ function calculateIncome(isAdd) {
 
 
     if (isAdd == true) {
-        const totalExpenses = parseFloat((foodValue + rentValue + clothesValue));
-        return totalExpenses;
+
+    const totalExpenses = parseFloat((foodValue + rentValue + clothesValue));
+    return totalExpenses;
     }
 
     else {
